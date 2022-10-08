@@ -1,0 +1,473 @@
+.video-js.vjs-fluid,
+.video-js.vjs-16-9,
+.video-js.vjs-4-3,
+video.video-js,
+video.vjs-tech {
+    max-height: calc(100vh - 64px);
+    position: relative !important;
+    width: 100%;
+    height: auto !important;
+    max-width: 100% !important;
+    padding-top: 0 !important;
+    line-height: 0;
+}
+
+
+
+@media (max-width: 576px) {
+    .vjs-hd {
+        margin-top: -5 0px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .navbar li a {
+        color: #fff !important;
+        text-align: center;
+    }
+
+    .expert {
+        text-align: center;
+    }
+
+    .head-expert {
+        margin-top: 20px;
+        margin-left: 90px;
+    }
+
+    .child-expert {
+        margin-left: 30px;
+    }
+
+    .list-latihan .card {
+        margin-left: 50px;
+    }
+
+    .self-card {
+        width: 100% !important;
+    }
+}
+
+.self-card {
+    width: 150%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #EEEEEE;
+    font-family: 'Butler', 'Montserrat';
+    font-size: 18px;
+
+}
+
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.navbar .logout {
+
+    transition: .3s ease;
+}
+
+.navbar .logout:hover,
+.navbar .logout:focus {
+    transform: scale(.9);
+}
+
+.navbar {
+    background-color: #411CA3 !important;
+}
+
+.login,
+.register,
+.logout {
+    text-transform: uppercase;
+}
+
+.logout {
+    background-color: #411CA3;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.navbar li.nav-item {
+    margin-left: 40px;
+}
+
+
+#button-addon1 {
+    color: #ffc371;
+}
+
+i {
+    color: #ffc371;
+}
+
+.form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+    box-shadow: none;
+}
+
+footer {
+    font-family: 'Monserrat';
+    background-color: #411CA3;
+}
+
+.head-page {
+    color: #fff;
+}
+
+.text-muted {
+    color: #2B195B !important;
+    font-family: 'Monserrat' !important;
+    font-weight: 300 !important;
+}
+
+.text-page {
+    color: #fff !important;
+    font-family: 'Monserrat' !important;
+    font-weight: 300 !important;
+}
+
+.copyright p {
+
+    color: white !important;
+}
+
+#bannerpage {
+    color: #fff;
+    width: 100%;
+    height: 300px;
+    background-color: #411CA3;
+}
+
+
+
+#bannerpage .headtext {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#bannerpage .childtext {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+.text-banner {
+    padding-top: 100px;
+}
+
+/* video */
+#video {
+    padding: 100px 0;
+}
+
+#video .card a {
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.card-list {
+    background-color: #411CA3;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+
+.card-header {
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+
+/* description */
+.nav-pills button {
+    background-color: #fff;
+    border: none;
+    border-radius: 100%;
+    margin-right: 20px;
+    font-family: 'Montserrat';
+}
+
+.nav-pills button:active,
+.nav-pills button:focus,
+.nav-pills button:hover {
+    background-color: #411CA3;
+    color: #fff;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #411CA3;
+}
+
+.tab-content p {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    line-height: 2em;
+}
+
+.text-pane {
+    background-color: #fff;
+    width: 100%;
+    height: 90%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.expert {
+    background-color: #fff;
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.expert h1 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.expert img {
+    margin-top: 30px;
+    width: 180px;
+}
+
+.tools {
+    background-color: #fff;
+    width: 100%;
+    height: 90%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.tools img {
+    width: 120px;
+}
+
+.tools p {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.btn-primary {
+    background-color: #411CA3;
+    border: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #2e1377 !important;
+}
+
+
+/* MultipleChoice */
+
+#question {
+    background-color: #eee;
+    width: 100%;
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+
+.main-quest {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.pilihan {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.pagination .page-link {
+    color: #411CA3;
+}
+
+.btn-primary.soal {
+    width: 100px;
+}
+
+span.draggable {
+    width: 30px;
+    height: 10px;
+    border: 1px solid black;
+}
+
+.drag {
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 0;
+    margin: 30px 0;
+
+}
+
+
+
+.code-editor {
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    padding: 30px;
+    margin: 30px 0;
+}
+
+.expect,
+.output {
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+    margin: 30px 0;
+}
+
+.page-item.isAct {
+    background-color: #411CA3 !important;
+}
+
+.recap {
+    padding: 100px 0;
+}
+
+.is_act {
+    color: #fff !important;
+    background-color: #411CA3;
+
+}
+
+.no_act {
+    background-color: #25105f !important;
+    color: #fff !important;
+}
+
+.page-link:hover {
+    color: #fff !important;
+    background-color: #411CA3;
+}
+
+.finalmc {
+    background-color: #fff;
+    width: 100%;
+    margin-top: 100px;
+    padding: 30px;
+}
+
+
+
+.table .card {
+    cursor: pointer;
+}
+
+.list-latihan a {
+    text-decoration: none;
+    color: #2B195B;
+}
+
+.list-latihan {
+    margin: 100px 0;
+}
+
+.list-latihan .card {
+    margin-bottom: 30px;
+}
+
+.is_nonAct {
+    color: #fff !important;
+    background-color: #411CA3 !important;
+}
+
+#video .card a {
+    width: 50px;
+}
+
+#video .list-group {
+    height: 400px;
+    overflow: scroll;
+}
+
+#video .list-group::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+#video .list-group::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+#video .list-group::-webkit-scrollbar-thumb {
+    background-color: #411CA3;
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(0deg,
+            rgba(255, 255, 255, 0.5) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(255, 255, 255, 0.5) 50%,
+            rgba(255, 255, 255, 0.5) 75%,
+            transparent 75%,
+            transparent)
+}
+
+.fas {
+    color: #411CA3;
+}
+
+.profile {
+    padding: 100px;
+}
+
+#leaderboard-mc .card {
+    margin-bottom: 100px;
+}
+
+#leaderboard-mc .card-header {
+    background-color: #411CA3;
+    color: #fff
+}
+
+#leaderboard-mc {
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+#leaderboard-mc .nav-pills {
+    margin-top: 100px;
+}
